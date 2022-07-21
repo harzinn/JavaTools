@@ -5,6 +5,7 @@ public class SerializeDemo {
         Employee employee1 = new Employee("Nick", "Home", 123456789, 101);
         Employee employee2 = new Employee("Test", "NotHome", 77, 2);
         Employee employee3 = new Employee("Noone", "NoWhere", 0, 404);
+        Employee test123 = new Employee("Dave", "Lab", 1, 500);
 
         try {
             FileOutputStream fileOut =

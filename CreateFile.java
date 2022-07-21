@@ -1,6 +1,4 @@
-import java.io.File; // Import the File class
-import java.io.IOException; // Import the IOException class to handle errors
-import java.io.FileWriter; // Impor the FileWriter class
+import java.io.*;
 
 public class CreateFile {
     public static void main(String[] args) {

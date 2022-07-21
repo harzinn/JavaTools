@@ -21,11 +21,11 @@ public class DeserializeDemo {
             return;
         }
 
-        displayResults(employee1, employee2);
+        myMethod(employee1, employee2);
 
     }
 
-    private static void displayResults(Employee employee1, Employee employee2) {
+    private static void myMethod(Employee employee1, Employee employee2) {
         System.out.println("Employee data");
         System.out.println(employee1.name);
         System.out.println(employee1.address);
